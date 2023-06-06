@@ -47,7 +47,7 @@ header {
 	height: 100%;
 	overflow: auto;
 	position: relative;
-	background: url("https://github.com/hokke414/stationery_cafe/blob/main/images/maining.png?raw=true") no-repeat center center / cover;	/*背景画像の読み込み*/
+	background: url("https://github.com/hokke414/stationary_cafe/blob/main/images/maining.jpg?raw=true") no-repeat center center / cover;	/*背景画像の読み込み*/
 }
 /*ロゴ画像*/
 header #logo img {
@@ -80,13 +80,13 @@ header #logo img {
 #menubar li a {
 	text-decoration: none;display: block;text-align: center;
 	width: 140px;	/*メニューの幅*/
-	color: #fff;	/*文字色*/
+	color: black;	/*文字色*/
 	border-bottom: 2px solid transparent;	/*下線の幅、線種、色。transparentは透明の事。*/
 	padding-bottom: 7px;	/*下線と文字の間にとる余白*/
 }
 /*マウスオン時の指定*/
 #menubar li a:hover {
-	border-bottom: 2px solid #fff;	/*下線の幅、線種、色*/
+	border-bottom: 2px solid black;	/*下線の幅、線種、色*/
 	letter-spacing: 0.1em;			/*文字間隔を少しだけ広くする指定。そのままがいいならこの１行を削除。*/
 }
 
