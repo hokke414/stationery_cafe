@@ -47,7 +47,7 @@ header {
 	height: 100%;
 	overflow: auto;
 	position: relative;
-	background: url("https://github.com/hokke414/stationary_cafe/blob/main/images/maining.jpg?raw=true") no-repeat center center / cover;	/*背景画像の読み込み*/
+	background: url("https://github.com/hokke414/stationery_cafe/blob/main/images/maining.png?raw=true") no-repeat center center / cover;	/*背景画像の読み込み*/
 }
 /*ロゴ画像*/
 header #logo img {
