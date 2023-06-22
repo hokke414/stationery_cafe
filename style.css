@@ -408,7 +408,6 @@ ol {
 .card{
  
   /* 注目 */
-  width: calc((100% - 20px * 1) / 2);  
   
   height: auto;
   border-radius: 8px;
