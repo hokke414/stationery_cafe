@@ -17,10 +17,6 @@
 /*--------------------------------------
   カード型_06
 --------------------------------------*/
-.l-wrapper {
-  margin: 1rem auto;
-  width:30%;
-}
 .l-wrapper:hover {
   transform: translateY(-5px);
   box-shadow: 0 7px 34px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
@@ -66,20 +62,32 @@
 .card-content p {
   margin-bottom:0;
 }
+
+@media screen and (min-width:800px){
 .articles-1{
   display:flex;
 }
-
-
-@media screen and (max-width:800px){
-  
-  .card-content {
-  padding: 8px 0px 0px;
-  height: 30%;
+.articles-2{
+  display:flex;
 }
-  .arti{
-    display:block;
-  }
+.l-wrapper {
+  margin: 1rem auto;
+  width:30%; 
+}
+}
+
+@media screen and (max-width:799px){
+  .articles-1{
+  display:block;
+}
+.articles-2{
+  display:block;
+}
+.l-wrapper {
+  margin: 1rem auto;
+  width:100%;
+}
+}
 </style>
 </head>
 
